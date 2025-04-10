@@ -53,7 +53,7 @@ class Robot(Node):
         #Tracking goal
         self.goal_index = 0
         self.nav_goal_done = True
-        self.goal_list = [(0.0,-5.0,0.0),(0.0,-9.0,0.0),(0.0,-10.0,0.0),(-6.0,-10.0,0.0),(-7.0,-4.0,0.0)]  # Example waypoints
+        self.goal_list = [(-3.0,-4.5,0.0),(-6.0,-2.0,0.0),(-7.0,-11.0,0.0),(2.3,-11.0,0),(4.35,-5.0,0.0)]  # Example waypoints
         
         #For remembering blue goal
         self.goal_position = [0,0]
@@ -381,4 +381,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
